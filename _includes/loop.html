@@ -1,0 +1,8 @@
+{% assign items = site.sections | sort: 'order' %}
+{% for section in items %}
+<section data-anchor="{{ section.title | slugify }}">
+  <div class="container">
+    {{ section.content }}
+  </div>
+</section>
+{% endfor %}

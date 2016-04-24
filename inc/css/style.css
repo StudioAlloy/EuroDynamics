@@ -1,0 +1,26 @@
+body {
+  background: #ccc;
+}
+section {
+  text-align: center;
+}
+.container {
+  background: #fff;
+  height: 90vh;
+  width: 90vw;
+  margin: 0 auto;
+}
+.fp-controlArrow.fp-next {
+  right: 75px;
+  border-width: 38.5px 0 38.5px 34px;
+  border-color: transparent transparent transparent #0ba;
+}
+.fp-controlArrow.fp-prev {
+  left: 75px;
+  width: 0;
+  border-width: 38.5px 34px 38.5px 0;
+  border-color: transparent #0ba transparent transparent;
+}
+#fp-nav.right {
+  right: 11px;
+}
